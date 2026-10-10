@@ -1,0 +1,47 @@
+SUMMIT STEPS - putting it on the iPad
+=====================================
+
+The files in this folder are the whole app:
+  index.html, manifest.webmanifest, sw.js and the icons folder.
+Upload them together (keep the icons folder as a folder).
+
+1. Put it online (once, about 10 minutes, easiest on a computer)
+
+   Option A - GitHub Pages (free, stays up)
+   a) Sign in at github.com (or create a free account).
+   b) Click "+" > "New repository". Name it summit-steps, choose Public,
+      tick "Add a README file", then "Create repository".
+   c) Click "Add file" > "Upload files". Drag in everything from this folder
+      (index.html, manifest.webmanifest, sw.js, SETUP.txt and the icons folder).
+      Click "Commit changes".
+   d) Go to Settings > Pages. Under "Build and deployment" choose
+      "Deploy from a branch", branch "main", folder "/ (root)", then Save.
+   e) After a minute or two the page shows your address, for example
+      https://YOUR-USERNAME.github.io/summit-steps/
+
+   Option B - Netlify Drop
+   Go to app.netlify.com/drop, drag this whole folder onto the page,
+   and create a free account when asked so the site is kept.
+
+2. Install it on the iPad
+   a) Open the address in Safari.
+   b) Tap the Share button (square with an arrow), then "Add to Home Screen",
+      then "Add".
+   c) Open Summit Steps from the new icon once while connected to Wi-Fi.
+      After that it works offline.
+
+3. Keep her progress safe
+   Progress is stored on the iPad inside the app. Deleting the app's
+   icon deletes its progress. Use Progress > "Save a backup" every week or two
+   and save the file to Files or iCloud Drive. "Restore from a backup" brings
+   it back. The app reminds you if it has been 14 days.
+
+4. Updates
+   To update, upload the new index.html and sw.js over the old ones
+   ("Add file" > "Upload files" again). The iPad picks up the new version
+   the next time the app is opened online (sometimes it needs opening twice).
+
+Notes
+- The web address is public, but the app holds no personal information.
+  Her progress stays on the iPad and is never uploaded.
+- Progress in the installed app is separate from the Claude link version.
